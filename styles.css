@@ -1,0 +1,115 @@
+/* #83c057 */
+
+* {
+  font-family: 'Arvo', monospace;
+  /* background-color: rgba(255,0,0,0.1) */
+}
+.container {
+  padding: 30px;
+}
+.jumbotron {
+  padding-top: 10vh;
+  color: #fff;
+  background-image: url('https://res-3.cloudinary.com/impactflow/image/upload/x_97,y_164,w_3808,h_2142,c_crop/c_fit,h_788,w_1400/vvhiwrb6bcfq2xodrq41.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: #efefef;
+  height: 55vh;
+}
+.jumbotron .btn {
+  color: #fff;
+  background-color: transparent;
+  border: 3px solid #fff;
+}
+.jumbotron .btn:hover {
+  color: #333;
+  background-color: #fff;
+  border: 3px solid #fff;
+}
+#about p {
+  font-size: 1.3em;
+}
+.highlight {
+  padding: 30px 60px 60px;
+  background-color: rgba(0,0,0,0.6);
+}
+.highlight p, h1 {
+  margin: 20px 0;
+}
+
+.highlight p .organizer {
+  font-size: 1.6em;
+}
+.highlight h1 {
+  font-size: 2.8em;
+}
+.highlight p {
+  font-size: 1.2em;
+}
+h2, h3, h4 {
+  text-align: center;
+}
+h2 {
+  color: #83c057;
+  font-size: 2.4em;
+  margin: 1em 0;
+}
+h3 {
+  font-size: 1.2em;
+  margin: 2em 0;
+  font-weight: 700;
+}
+a {
+  color: #83c057;
+}
+a:hover {
+  color: #6aa63e;
+}
+nav {
+  border-bottom: 1px solid #ccc;
+}
+.navbar-brand {
+  padding-left:15px;
+}
+li.nav-item {
+  text-transform: uppercase;
+  font-weight: 700;
+  padding: 15px;
+}
+header .btn {
+  font-weight: 700;
+}
+.btn {
+  color: #83c057;
+  background-color: #fff;
+  border: 3px solid #83c057;
+  border-radius: 0;
+}
+.btn-lg{
+  font-size: 1.6em;
+}
+.btn:hover {
+  color: #fff;
+  background-color: #83c057;
+  border: 3px solid #83c057;
+}
+address {
+  font-size: 1.3em;
+  text-align: center;
+  background-color: #efefef;
+  padding: 30px;
+}
+#organizer p {
+  margin: 60px 0 30px;
+}
+#closing-cta {
+  padding-bottom: 60px;
+}
+footer {
+  background: #333;
+  margin: auto;
+}
+footer a {
+  margin: 30px 15px;
+  color: #fff;
+}
