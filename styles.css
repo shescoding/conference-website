@@ -1,20 +1,16 @@
-/* #83c057 */
-
 * {
-  font-family: 'Arvo', monospace;
-  /* background-color: rgba(255,0,0,0.1) */
+  font-family: 'Zilla Slab', monospace;
 }
 .container {
   padding: 30px;
 }
 .jumbotron {
-  padding-top: 10vh;
+  padding-top: 15vh;
   color: #fff;
-  background-image: url('https://res-3.cloudinary.com/impactflow/image/upload/x_97,y_164,w_3808,h_2142,c_crop/c_fit,h_788,w_1400/vvhiwrb6bcfq2xodrq41.jpg');
+  background-image: url('assets/twr-banner.jpg');
   background-repeat: no-repeat;
   background-size: cover;
   background-color: #efefef;
-  height: 55vh;
 }
 .jumbotron .btn {
   color: #fff;
@@ -28,6 +24,10 @@
 }
 #about p {
   font-size: 1.3em;
+}
+
+p {
+  font-size: 1.1em;
 }
 .highlight {
   padding: 30px 60px 60px;
@@ -69,7 +69,13 @@ nav {
   border-bottom: 1px solid #ccc;
 }
 .navbar-brand {
+  font-weight: 600;
   padding-left:15px;
+}
+
+.navbar-light .navbar-brand {
+  color: #83c057;
+
 }
 li.nav-item {
   text-transform: uppercase;
@@ -84,6 +90,7 @@ header .btn {
   background-color: #fff;
   border: 3px solid #83c057;
   border-radius: 0;
+  font-weight: 600;
 }
 .btn-lg{
   font-size: 1.6em;
