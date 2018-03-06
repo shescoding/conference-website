@@ -82,6 +82,11 @@ li.nav-item {
   font-weight: 700;
   padding: 15px;
 }
+.dropdown-item.active,
+.dropdown-item:active {
+  background-color: #83c057;
+}
+
 header .btn {
   font-weight: 700;
 }
