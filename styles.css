@@ -6,16 +6,15 @@
 }
 .jumbotron {
   padding-top: 15vh;
-  color: #fff;
   background-image: url('assets/twr-banner.jpg');
   background-repeat: no-repeat;
   background-size: cover;
   background-color: #efefef;
+  text-align: center;
 }
 .jumbotron .btn {
   color: #fff;
-  background-color: transparent;
-  border: 3px solid #fff;
+  background-color: #83c057;
 }
 .jumbotron .btn:hover {
   color: #333;
@@ -30,17 +29,19 @@ p {
   font-size: 1.1em;
 }
 .highlight {
-  padding: 30px 60px 60px;
-  background-color: rgba(0,0,0,0.75);
+  padding: 40px 60px 80px;
+  background-color: rgba(255,255,255,0.9);
 }
 .highlight p, h1 {
   margin: 20px 0;
 }
 
-.highlight p .organizer {
+.highlight p.event-dates {
   font-size: 1.6em;
+  padding-bottom: .8em;
 }
 .highlight h1 {
+  color: #83c057;
   font-size: 2.8em;
 }
 .highlight p {
