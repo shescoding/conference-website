@@ -116,6 +116,11 @@ address {
 #organizer p {
   margin: 60px 0 30px;
 }
+figcaption {
+  font-size: 1.2em;
+  text-align: center;
+  padding-top: 10px;
+}
 #closing-cta {
   padding-bottom: 60px;
 }
