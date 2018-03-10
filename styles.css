@@ -132,3 +132,12 @@ footer a {
   margin: 30px 15px;
   color: #fff;
 }
+img.padding-top {
+  padding-top:75px;
+}
+img.padding-left {
+  padding-left: 50px;
+}
+img.padding-overall {
+  padding: 15px;
+}
