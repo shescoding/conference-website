@@ -175,3 +175,32 @@ img.padding-left {
 img.padding-overall {
   padding: 15px;
 }
+
+.scrolltop {
+	display:none;
+	width:100%;
+	margin:0 auto;
+	position:fixed;
+	bottom:10px;
+	right:10px;
+}
+.scroll {
+	position:absolute;
+	right:20px;
+	bottom:20px;
+  color: #fff;
+	background:#83c057;
+	padding: 14px;
+	text-align: center;
+	margin: 0 auto;
+  border-radius: 30px;
+  height: 60px;
+  width: 60px;
+	cursor: pointer;
+}
+
+.scroll .fa {
+	font-size:16px;
+	margin-left:1px;
+	transition: 0.5s;
+}
