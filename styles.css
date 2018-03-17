@@ -108,14 +108,20 @@ input .btn .btn-primary {
 input .btn .btn-primary:hover {
   background-color: #333;
 }
-input {
+
+.mailing-list {
+  background-color: #efefef;
+  padding: 10px 0 70px;
+}
+.mailing-list input {
   height: 48px;
   padding: 0.4em 0.8em;
 }
-input[type~="email"]{
-
+.mailing-list input[type~="email"]{
+  width: 360px;
+  margin-right: 10px;
 }
-input[type~="submit"] {
+.mailing-list input[type~="submit"] {
   text-transform: uppercase;
   font-weight: 600;
   letter-spacing: .03em;
@@ -135,11 +141,6 @@ input[type~="submit"] {
   background-color: #83c057;
   border-color: #83c057;
 }
-.mailing-list {
-  background-color: #efefef;
-  padding: 10px 0 70px;
-}
-
 address {
   font-size: 1.3em;
   text-align: center;
