@@ -15,11 +15,12 @@
 .jumbotron .btn {
   color: #fff;
   background-color: #83c057;
+  border: none;
+  padding: .5em 1em;
 }
 .jumbotron .btn:hover {
-  color: #333;
-  background-color: #fff;
-  border: 3px solid #fff;
+  background-color: #333;
+  border: none;
 }
 #about p {
   font-size: 1.3em;
@@ -96,20 +97,47 @@ li.nav-item {
 header .btn {
   font-weight: 700;
 }
-.btn {
-  color: #83c057;
-  background-color: #fff;
-  border: 3px solid #83c057;
+.btn-primary,
+input .btn .btn-primary {
+  color: #fff;
+  border: 0;
   border-radius: 0;
   font-weight: 600;
 }
-.btn-lg{
-  font-size: 1.6em;
+.btn-primary:hover,
+input .btn .btn-primary:hover {
+  background-color: #333;
 }
-.btn:hover {
+input {
+  height: 48px;
+  padding: 0.4em 0.8em;
+}
+input[type~="email"]{
+
+}
+input[type~="submit"] {
+  text-transform: uppercase;
+  font-weight: 600;
+  letter-spacing: .03em;
+  background-color: #83c057;
+}
+.btn-lg {
+  font-size: 1.6em;
+  font-weight: 600;
+}
+.btn-outline-primary {
+  color: #83c057;
+  border: 3px solid #83c057;
+  border-radius: 0;
+}
+.btn-outline-primary:hover {
   color: #fff;
   background-color: #83c057;
-  border: 3px solid #83c057;
+  border-color: #83c057;
+}
+.mailing-list {
+  background-color: #efefef;
+  padding: 10px 0 70px;
 }
 
 address {
