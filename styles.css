@@ -111,7 +111,7 @@ input .btn .btn-primary:hover {
 
 .mailing-list {
   background-color: #efefef;
-  padding: 10px 0 70px;
+  padding-bottom: 70px;
 }
 .mailing-list input {
   height: 48px;
