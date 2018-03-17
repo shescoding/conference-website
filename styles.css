@@ -207,3 +207,23 @@ img.padding-overall {
 	margin-left:1px;
 	transition: 0.5s;
 }
+
+.workshop,
+.workshop .media {
+  padding-bottom: 20px;
+}
+.workshop h3 {
+  text-align: left;
+  font-size: 1.8em;
+  font-weight: 400;
+  margin: 1em 0;
+}
+
+.workshop p {
+  font-size: 1.2em;
+  padding-bottom: 6px;
+}
+
+.workshop .media p {
+    font-size: 1.1em;
+}
