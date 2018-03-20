@@ -233,5 +233,14 @@ img.padding-overall {
 }
 
 .workshop .media p {
-    font-size: 1.1em;
+  font-size: 1.1em;
+}
+
+.brand-assets {
+  padding-top: 100px;
+
+}
+
+.brand-assets h3, .brand-assets h4 {
+  text-align: left;
 }
