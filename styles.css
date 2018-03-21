@@ -66,8 +66,9 @@ h3 {
   font-weight: 700;
 }
 h4 {
+  font-size: 1.6em;
   color: #83c057;
-    padding-bottom: 1em;
+  padding-bottom: 1em;
   border-bottom: 1px solid #ddd;
 }
 a {
@@ -216,7 +217,7 @@ img.padding-overall {
 }
 .workshop h3 {
   text-align: left;
-  font-size: 1.8em;
+  font-size: 1.4em;
   font-weight: 600;
   margin: 1em 0;
 }
@@ -228,19 +229,13 @@ img.padding-overall {
 }
 
 .workshop p {
-  font-size: 1.2em;
+  font-size: 1.1em;
   padding-bottom: 6px;
+}
+.workshop .media h5 {
+  font-weight: 600;
 }
 
 .workshop .media p {
-  font-size: 1.1em;
-}
-
-.brand-assets {
-  padding-top: 100px;
-
-}
-
-.brand-assets h3, .brand-assets h4 {
-  text-align: left;
+    font-size: 1em;
 }
