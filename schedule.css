@@ -296,11 +296,11 @@ Main Components
 .cd-schedule .single-event[data-event="event-1"],
 .cd-schedule [data-event="event-1"] .header-bg {
   /* this is used to set a background color for the event and the modal window */
-  background: #83c057;
+  background: #537f34;
 }
 
 .cd-schedule .single-event[data-event="event-1"]:hover {
-  background: #7DB853;
+  background: #476d2c;
 }
 
 .cd-schedule .single-event[data-event="event-2"],
@@ -309,7 +309,7 @@ Main Components
 }
 
 .cd-schedule .single-event[data-event="event-2"]:hover {
-  background: #434343;
+  background: #333333;
 }
 
 .cd-schedule .single-event[data-event="event-3"],
