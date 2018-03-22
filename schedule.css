@@ -221,7 +221,7 @@ Main Components
   }
 
 #friday .cd-schedule .events .events-group > ul {
-  height: 500px;
+  height: 250px;
 }
 
 .cd-schedule .events .events-group > ul {
@@ -306,7 +306,7 @@ Main Components
 .cd-schedule .inline-event-date {
   /* they are not included in the the HTML but added using JavScript */
   font-size: .8em;
-  color:#777;
+  color:#555;
   line-height: 1em;
   margin-bottom: 0.1em;
   font-weight: 400;
@@ -647,4 +647,8 @@ Main Components
   .margin-adjust {
     margin-left: -20px;
   }
+}
+#friday .top-info.width-200 {
+  width: 200%;
+  background-color: #fff;
 }
