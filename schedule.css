@@ -176,12 +176,24 @@ Main Components
     float: left;
     width: 100%;
   }
+
+
   .cd-schedule .events .events-group {
     width: 33.3%;
     float: left;
     border: 1px solid #EAEAEA;
     /* reset style */
     margin-bottom: 0;
+  }
+
+  #friday .cd-schedule .events .events-group {
+    width: 50%;
+  }
+  #saturday .cd-schedule .events .events-group {
+    width: 20%;
+  }
+  #sunday .cd-schedule .events .events-group {
+    width: 100%;
   }
   .cd-schedule .events .events-group:not(:first-of-type) {
     border-left-width: 0;
@@ -206,8 +218,13 @@ Main Components
     font-weight: 600;
     font-size: 1.2em;
   }
-  .cd-schedule .events .events-group > ul {
-    height: 800px;
+
+#friday .cd-schedule .events .events-group > ul {
+  height: 500px;
+}
+
+.cd-schedule .events .events-group > ul {
+    height: 798px;
     /* reset style */
     display: block;
     overflow: visible;
@@ -314,20 +331,20 @@ Main Components
 
 .cd-schedule .single-event[data-event="event-3"],
 .cd-schedule [data-event="event-3"] .header-bg {
-  background: #A2B9B2;
+  background: #698c81;
 }
 
 .cd-schedule .single-event[data-event="event-3"]:hover {
-  background: #b1c4be;
+  background: #5e7d74;
 }
 
 .cd-schedule .single-event[data-event="event-4"],
 .cd-schedule [data-event="event-4"] .header-bg {
-  background: #f6b067;
+  background: #0f447d;
 }
 
 .cd-schedule .single-event[data-event="event-4"]:hover {
-  background: #f7bd7f;
+  background: #0c3866;
 }
 
 .cd-schedule .event-modal {
