@@ -188,8 +188,9 @@ img.padding-overall {
 	position:fixed;
 	bottom:10px;
 	right:10px;
+  z-index: 10;
 }
-.scroll {
+.scroll.icon {
 	position:absolute;
 	right:20px;
 	bottom:20px;
@@ -202,6 +203,7 @@ img.padding-overall {
   height: 60px;
   width: 60px;
 	cursor: pointer;
+  z-index: 10;
 }
 
 .scroll .fa {
@@ -239,4 +241,35 @@ img.padding-overall {
 
 .workshop .media p {
     font-size: 1em;
+}
+
+.conference-days a {
+  font-size: 1.2em;
+  font-weight: 600;
+  letter-spacing: 0.03em;
+  color: #333;
+  border-top: 2px solid #efefef;
+  border-bottom: 2px solid #efefef;
+}
+.conference-days a:hover {
+  color: #fff;
+  background-color: #83c057;
+  border-top: 2px solid #83c057;
+  border-bottom: 2px solid #83c057;
+}
+
+
+.conference-schedule {
+  padding-top: 70px;
+}
+
+.conference-schedule h3 {
+  font-size: 2em;
+  font-weight: 400;
+  color: #83c057;
+}
+
+.conference-schedule h5,
+.conference-schedule p {
+  text-align: center;
 }
