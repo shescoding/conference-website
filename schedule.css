@@ -220,12 +220,17 @@ Main Components
     font-size: 1.2em;
   }
 
-#friday .cd-schedule .events .events-group > ul {
-  height: 250px;
-}
+  #friday .cd-schedule .events .events-group > ul {
+    height: 250px;
+  }
 
-.cd-schedule .events .events-group > ul {
+  #saturday .cd-schedule .events .events-group > ul,
+  #sunday .cd-schedule .events .events-group > ul {
     height: 898px;
+  }
+
+  .cd-schedule .events .events-group > ul {
+    height: 798px;
     /* reset style */
     display: block;
     overflow: visible;
