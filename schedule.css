@@ -225,7 +225,7 @@ Main Components
 }
 
 .cd-schedule .events .events-group > ul {
-    height: 798px;
+    height: 898px;
     /* reset style */
     display: block;
     overflow: visible;
@@ -246,7 +246,7 @@ Main Components
     /* top position and height will be set using js */
     width: calc(100% + 2px);
     left: -1px;
-    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1), inset 0 -2px 0 rgba(0, 0, 0, 0.1);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.07), inset 0 -2px 0 rgba(0, 0, 0, 0.1);
     /* reset style */
     -ms-flex-negative: 1;
         flex-shrink: 1;
@@ -651,4 +651,8 @@ Main Components
 #friday .top-info.width-200 {
   width: 200%;
   background-color: #fff;
+}
+
+#saturday li.single-event.width-500 {
+  width: 504%;
 }
