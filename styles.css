@@ -116,18 +116,18 @@ input .btn .btn-primary:hover {
   background-color: #efefef;
   padding-bottom: 70px;
 }
-.mailing-list-blue {
-  background-color: #D0E1F9;
+.mailing-list-grey {
+  background-color: #efefef;
 }
-.mailing-list input, .mailing-list-blue input {
+.mailing-list input, .mailing-list-grey input {
   height: 48px;
   padding: 0.4em 0.8em;
 }
-.mailing-list input[type~="email"], .mailing-list-blue input[type~="email"]{
+.mailing-list input[type~="email"], .mailing-list-grey input[type~="email"]{
   width: 360px;
   margin-right: 10px;
 }
-.mailing-list input[type~="submit"], .mailing-list-blue input[type~="submit"] {
+.mailing-list input[type~="submit"], .mailing-list-grey input[type~="submit"] {
   text-transform: uppercase;
   font-weight: 600;
   letter-spacing: .03em;
@@ -273,16 +273,9 @@ img.padding-overall {
 }
 
 .grey-section {
-  background-color: #efefef;
+  background-color: #f8f8f8;
 }
 
-.super-light-blue-section {
-  background-color: #f0f6fd;
-}
-
-.light-blue-section {
-  background-color: #e7f0fc;
-}
 .no-border {
   border: none;
 }
